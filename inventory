@@ -11,6 +11,9 @@
 192.187.23.5
 192.187.23.6
 
+[localhost]
+localhost
+
 [localhost:vars]
 Course="DevOps from inventory"
 Trainer="SivaKumar"
