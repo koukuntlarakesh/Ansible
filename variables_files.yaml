@@ -1,0 +1,7 @@
+- name: Calling Varibles from the var files
+  hosts: localhost
+  vars_files:
+  - variables_files.yaml
+  tasks:
+    ansible.builtin.debug:
+       msg:  "Hello Your are learing {{Course}} , Trainer is {{Trainer}} Duration is {{Duration}}"
