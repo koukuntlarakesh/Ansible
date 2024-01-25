@@ -11,6 +11,10 @@
 192.187.23.5
 192.187.23.6
 
+[localhost:vars]
+Course="DevOps from inventory"
+Trainer="SivaKumar"
+Duration="110hours"
 
 [roboshop:children]
 web
