@@ -12,6 +12,7 @@
       Docker: 4
     Trainer: true # boolean type data type
   tasks:
+  - name: Print employee data
     ansible.builtin.debug:
       msg: "The Employee name is {{NAME}}, and his technical skills are {{Skills}} ,He has an experience of {{Experience}}"
 
