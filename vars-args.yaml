@@ -3,4 +3,4 @@
   tasks:
   - name: accessing from args
     ansible.builtin.debug:
-      msg: "Hello your are learning {{DevOps}} Trainer {{Trainer}}  and duration {{Duration}}"
+      msg: "Hello your are learning {{Course}} Trainer {{Trainer}}  and duration {{Duration}}"
