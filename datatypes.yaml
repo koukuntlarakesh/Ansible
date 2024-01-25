@@ -1,0 +1,17 @@
+- name: checking datatypes
+  hosts: localhost
+  vars: 
+    NAME: Rakesh Reddy # key value
+    Skills:  # Skillsis alist type
+    - Python
+    - JAVA
+    - C++
+    Experience: # Experience is a map type It contains key value pair
+      DevOps: 7
+      AWS: 5
+      Docker: 4
+    Trainer: true # boolean type data type
+  tasks:
+    ansible.builtin.debug:
+      msg: "The Employee name is {{NAME}}, and his technical skills are {{Skills}} ,He has an experience of {{Experience}}"
+
