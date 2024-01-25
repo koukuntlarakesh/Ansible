@@ -9,6 +9,7 @@
     prompt: Please enter your Password
     private: true #user cannot see what they are entering
 
-   tasks:
-   ansible.builtin.debug:
-   msg: "Username is {{ USERNAME }}, and password is {{ PASSWORD }}
+  tasks:
+  - name: print the username and password
+    ansible.builtin.debug:
+        msg: "Username is {{ USERNAME }}, and password is {{ PASSWORD }}
