@@ -18,6 +18,6 @@
   - name: creating user
     ansible.builtin.user:
      name: roboshop
-    when : user.rc != o # run the condition
+    when : user.rc != 0 # run the condition
   
   
