@@ -8,6 +8,6 @@
 
   - name: print variable name
     ansible.builtin.debug:
-    msg: "user output is :{{user}}"
+      msg: "user output is :{{user}}"
   
   
