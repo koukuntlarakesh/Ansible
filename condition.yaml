@@ -14,4 +14,10 @@
     ansible.builtin.debug:
       msg: "user status is : {{user.rc}}"
   
+
+  - name: creating user
+    ansible.builtin.user:
+     name: roboshop
+    when : user.rc != o # run the condition
+  
   
