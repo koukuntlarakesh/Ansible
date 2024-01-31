@@ -7,10 +7,10 @@
        name: "{{item}}"
        state: "{{present}}"
 
-    loop:
-    - mysql
-    - git 
-    - nginx
+     loop:
+     - mysql
+     - git 
+     - nginx
    
 
 
